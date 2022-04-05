@@ -47,11 +47,12 @@ df_new=df2[((df2>=q1-1.5*IQR)&(df2<=q3+1.5*IQR)).all(axis=1)]
 df_new
 df_new.boxplot()
 df_new
+df.to_csv('weight.csv', index=False)
 ~~~
 # OUTPUT:
 ## Initial data set:
 ![output](1.png)
-## Data set displaying after rwmoving non numerical sets:
+## Data set displaying after removing non numerical sets:
 ![output](2.png)
 ## Graph of initial data set with outliers:
 ![output](3.png)
@@ -68,4 +69,4 @@ df_new
 ## Final data set:
 ![output](9.png)
 # RESULT:
-Thus the outliers are detected and removed in the given csv file
+Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
