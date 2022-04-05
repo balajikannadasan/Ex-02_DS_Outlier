@@ -49,23 +49,23 @@ df_new.boxplot()
 df_new
 ~~~
 # OUTPUT:
-## Initial data set
+## Initial data set:
 ![output](1.png)
-## Data set displaying after rwmoving non numerical sets
+## Data set displaying after rwmoving non numerical sets:
 ![output](2.png)
-## Graph of initial data set with outliers
+## Graph of initial data set with outliers:
 ![output](3.png)
-## Zscores to detect outliers
+## Zscores to detect outliers:
 ![output](4.png)
-## Data set after removing outliers in weight using z scores and list manupilation
+## Data set after removing outliers in weight using z scores and list manupilation:
 ![output](5.png)
-## Graph after removing outliers in weight
+## Graph after removing outliers in weight:
 ![output](6.png)
-## Data set after removing outliers in height using Interquartile Range(IQR)
+## Data set after removing outliers in height using Interquartile Range(IQR):
 ![output](7.png)
-## Final graph 
+## Final graph :
 ![output](8.png)
-## Final data set
+## Final data set:
 ![output](9.png)
 # RESULT:
 Thus the outliers are detected and removed in the given csv file
